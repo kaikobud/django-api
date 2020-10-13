@@ -6,5 +6,6 @@ python version >= 3.8
  - go to project dir
  - install requirements with `pip install -r requirements.txt`
  - load env with `source ./api/.env`
+ - create superuser `python manage.py createsuperuser`
  - runserver with `python manage.py runserver`
  - check api docs on `http://127.0.0.1:8000`
